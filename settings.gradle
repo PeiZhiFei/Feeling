@@ -1,0 +1,1 @@
+include ':app', ':Library', ':XRecyclerView', ':PickPhotos', ':imageseletor', ':CatLoading'

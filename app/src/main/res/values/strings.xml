@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">就这个Feel</string>
+    <string name="navigation_news">新闻</string>
+    <string name="navigation_images">图片</string>
+    <string name="navigation_weather">天气</string>
+    <string name="navigation_about">关于</string>
+
+    <string name="choose_sd_Pic">选择本地图片</string>
+    <string name="choose_camera">拍照</string>
+    <string name="choose_video">摄像</string>
+    <string name="add_picture">添加照片</string>
+    <string name="save_camera_fail">未找到存储卡，无法存储照片！</string>
+
+    <string name="transition_news_img">transition_news_img</string>
+</resources>
+
+

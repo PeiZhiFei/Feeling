@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_tiny">6sp</dimen>
+    <dimen name="text_size_mini">8sp</dimen>
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_less">12sp</dimen>
+    <dimen name="text_size_medium">15sp</dimen>
+    <dimen name="text_size_large">17sp</dimen>
+    <dimen name="text_size_xlarge">19sp</dimen>
+    <dimen name="text_size_xxlarge">21sp</dimen>
+    <dimen name="text_size_xxxlarge">23sp</dimen>
+    <dimen name="offset_tiny">1dp</dimen>
+    <dimen name="offset_micro">2dp</dimen>
+    <dimen name="offset_small">3dp</dimen>
+    <dimen name="offset_small2">4dp</dimen>
+    <dimen name="offset_less">5dp</dimen>
+    <dimen name="offset_less1">6dp</dimen>
+    <dimen name="offset_lless">7dp</dimen>
+    <dimen name="offset_medium">10dp</dimen>
+    <dimen name="offset_medium3">12dp</dimen>
+    <dimen name="offset_medium2">15dp</dimen>
+    <dimen name="offset_large">20dp</dimen>
+    <dimen name="offset_xlarge">30dp</dimen>
+    <dimen name="offset_xxlarge">45dp</dimen>
+    <dimen name="icon_size_tiny">23dp</dimen>
+    <dimen name="icon_size_small">33dp</dimen>
+    <dimen name="icon_size_medium">43dp</dimen>
+    <dimen name="icon_size_larger">50dp</dimen>
+    <dimen name="icon_size_large">60dp</dimen>
+    <dimen name="icon_size_xlarge">75dp</dimen>
+    <dimen name="radius_small">3dp</dimen>
+    <dimen name="radius_medium">6dp</dimen>
+    <dimen name="dialog_min_width">220dp</dimen>
+
+    <!-- icon_size_medium * 4/3-->
+    <dimen name="icon_size_plan_item_height">56dp</dimen>
+    <!-- icon_size_medium * 2-->
+    <dimen name="icon_size_plan_item_width">86dp</dimen>
+
+    <dimen name="icon_size_main_grid_rb">5dp</dimen>
+    <dimen name="welcome_btn_marginB">230dp</dimen>
+
+    <dimen name="login_logo_pic_large_size">50dp</dimen>
+    <dimen name="login_logo_pic_small_size">42dp</dimen>
+    <dimen name="login_logo_text_height">25dp</dimen>
+    <dimen name="login_input_icon_size">32dp</dimen>
+    <dimen name="login_button_height">40dp</dimen>
+
+    <!-- user center -->
+    <dimen name="user_center_progress_height">8dp</dimen>
+    <dimen name="user_center_icon_forward_width">10dp</dimen>
+    <dimen name="user_center_icon_forward_height">15dp</dimen>
+    <dimen name="about_us_icon_logo_width">60dp</dimen>
+    <dimen name="about_us_icon_logo_height">60dp</dimen>
+    <!-- around -->
+    <dimen name="icon_head_size_small">25dp</dimen>
+    <dimen name="icon_head_size_middle">35dp</dimen>
+    <dimen name="icon_head_size_middle2">37dp</dimen>
+    <dimen name="around_icon_hot_rank_width">18dp</dimen>
+    <dimen name="around_icon_hot_rank_width2">22dp</dimen>
+    <dimen name="around_icon_reply_width">10dp</dimen>
+    <dimen name="around_icon_reply_height">10dp</dimen>
+
+    <!-- item 8-19 -->
+    <dimen name="list_item_train_pic_width">295dp</dimen>
+    <dimen name="list_item_train_pic_height">150dp</dimen>
+
+    <dimen name="button_size_activity_task_sign_bottom">65dp</dimen>
+
+    <dimen name="size_activity_chatter_radio_button">65dp</dimen>
+
+    <dimen name="media_play_height">180dp</dimen>
+
+    <dimen name="category_header_height">140dp</dimen>
+
+</resources>

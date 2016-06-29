@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
+        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+//        renderscriptTargetApi 22
+        renderscriptSupportModeEnabled true
+    }
+}
+//这是在单个库中的定义，还有就是整体的定义，双引号的可以是变量，单引号不行
+//compile "com.android.support:recyclerview-v7:${libSupportVersion}"
+//ext {
+//    libSupportVersion = '24.0.0-alpha1'
+//}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.facebook.fresco:fresco:0.7.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile "com.android.support:recyclerview-v7:${rootProject.recycleviewSupportLibsVersion}"
+    compile "com.android.support:appcompat-v7:${rootProject.supportLibsVersion}"
+    compile "com.android.support:support-v4:${rootProject.supportLibsVersion}"
+    compile "com.android.support:cardview-v7:${rootProject.supportLibsVersion}"
+    compile "com.android.support:design:${rootProject.supportLibsVersion}"
+}

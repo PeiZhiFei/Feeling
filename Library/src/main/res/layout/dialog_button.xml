@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/white_round"
+    android:gravity="center"
+    android:minWidth="250dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/offset_small"
+    android:paddingTop="@dimen/offset_large">
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/logo_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginRight="7dp"
+            android:minWidth="25dp"
+            fresco:actualImageScaleType="centerInside"
+            fresco:placeholderImage="@drawable/icon"
+            fresco:placeholderImageScaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:drawablePadding="@dimen/offset_medium"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="@dimen/offset_micro"
+            android:padding="@dimen/offset_micro"
+            android:text="@string/dialog_douxing"
+            android:textColor="#569ff4"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/offset_medium"
+        android:layout_marginLeft="@dimen/offset_medium"
+        android:layout_marginRight="@dimen/offset_medium"
+        android:layout_marginTop="@dimen/offset_medium"
+        android:lineSpacingExtra="@dimen/offset_small"
+        android:padding="@dimen/offset_less"
+        android:textColor="@color/color_text_black"
+        android:textSize="@dimen/text_size_less" />
+
+    <!-- <TextView
+         android:id="@+id/content"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/offset_less"
+         android:text="@string/dialog_rating_title_not_rated"
+         android:textColor="@color/color_text_black"
+         android:textSize="@dimen/text_size_large" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="@dimen/offset_small"
+        android:layout_marginTop="@dimen/offset_medium"
+        android:background="@color/color_text_test" />
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_rating_not_rated"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/offset_less"
+            android:paddingLeft="@dimen/offset_medium"
+            android:paddingRight="@dimen/offset_medium"
+            android:paddingTop="@dimen/offset_less"
+            android:text="取消"
+            android:textColor="@color/btn_text_red"
+            android:textSize="@dimen/text_size_medium" />
+
+        <View
+            android:id="@+id/deliver"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/color_text_test" />
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/offset_less"
+            android:paddingLeft="@dimen/offset_medium"
+            android:paddingRight="@dimen/offset_medium"
+            android:paddingTop="@dimen/offset_less"
+            android:text="确定"
+            android:textColor="@color/btn_text_blue"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/prompt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_top"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="标题"
+        android:textColor="@color/main_green"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/prompt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_middle"
+        android:gravity="center"
+        android:minHeight="50dp"
+        android:padding="20dp"
+        android:textColor="#808080"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#a5a5a5"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prompt_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:alpha="0.85"
+            android:background="@drawable/bt_left"
+            android:text="取消"
+            android:textColor="#ff5757"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/prompt_vertical_divider"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#c6c6c6" />
+
+        <Button
+            android:id="@+id/prompt_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:alpha="0.85"
+            android:background="@drawable/bt_right"
+            android:text="确定"
+            android:textColor="@color/glb_blue"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

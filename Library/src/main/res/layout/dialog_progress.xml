@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/white_round"
+    android:gravity="center"
+    android:minHeight="100dp"
+    android:minWidth="250dp"
+    android:orientation="horizontal"
+    android:padding="@dimen/offset_medium">
+
+    <library.widget.loadingview.LoadingIndicatorView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicator="BallScaleMultiple"
+        app:indicator_color="#26eaa9" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/offset_small"
+        android:textColor="@color/color_text_black"
+        android:textSize="@dimen/text_size_medium" />
+
+    <!--<com.ant.liao.GifView-->
+    <!--android:id="@+id/gif"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+</LinearLayout>

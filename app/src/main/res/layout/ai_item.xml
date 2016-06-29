@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/animlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/offset_medium"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants"
+    android:foreground="@drawable/pressed_backgorund_corner"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:cardPreventCornerOverlap="true">
+
+
+    <RelativeLayout
+        android:id="@+id/wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:descendantFocusability="blocksDescendants"
+        android:minHeight="150dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/content_image"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:alpha="0.8"
+            android:transitionName="anim"
+            android:visibility="gone"
+            app:actualImageScaleType="centerCrop"
+            app:placeholderImageScaleType="centerInside"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/user_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            app:actualImageScaleType="centerCrop"
+            app:placeholderImage="@drawable/user_qianming"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            style="@style/TextTheme"
+            android:layout_alignBottom="@id/user_logo"
+            android:layout_alignTop="@id/user_logo"
+            android:layout_marginLeft="8dip"
+            android:layout_toRightOf="@id/user_logo"
+            android:gravity="center_vertical"
+            android:text="岁月抚伤"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/item_action_fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/user_logo"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/user_logo"
+            android:layout_marginRight="12dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/rating_bar_small_unchecked"/>
+
+        <TextView
+            android:id="@+id/content_text"
+            style="@style/TextTheme"
+            android:layout_below="@id/user_logo"
+            android:layout_margin="8dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:padding="8dp"
+            android:textSize="14sp"
+            tools:text="十年之前，我不认识你 你不属于我，我们还是一样，陪在一个陌生人左右，走过渐渐熟悉的街头;十年之后，我们是朋友， 还可以问候，只是那种温柔，再也找不到拥抱的理由，情人最后难免沦为朋友。"/>
+
+
+        <RelativeLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#50068e3f">
+
+            <TextView
+                android:id="@+id/item_action_comment"
+                style="@style/action"
+                android:layout_alignParentRight="true"
+                android:drawableLeft="@drawable/ic_ask_sixin"
+                tools:text="5"/>
+
+            <TextView
+                android:id="@+id/item_action_share"
+                style="@style/action"
+                android:layout_toLeftOf="@id/item_action_comment"
+                android:drawableLeft="@drawable/info_ic_man"
+                tools:text="5"/>
+
+            <TextView
+                android:id="@+id/item_action_hate"
+                style="@style/action"
+                android:layout_toLeftOf="@id/item_action_share"
+                android:drawableLeft="@drawable/ic_ask_buzan2"
+                tools:text="5"/>
+
+            <TextView
+                android:id="@+id/item_action_love"
+                style="@style/action"
+                android:layout_toLeftOf="@id/item_action_hate"
+                android:drawableLeft="@drawable/ic_ask_buzan"
+                tools:text="5"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
