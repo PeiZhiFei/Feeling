@@ -3,6 +3,8 @@ package io.github.lijunguan.imgselector.album.widget;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.support.v4.view.ViewCompat;
@@ -23,6 +25,7 @@ public class GridDividerDecorator extends RecyclerView.ItemDecoration {
     public GridDividerDecorator(Context context) {
         final TypedArray a = context.obtainStyledAttributes(ATTRS);
         mDivider = a.getDrawable(0);
+        mDivider.setColorFilter(Color.parseColor("#80000000"), PorterDuff.Mode.DST);
         mDividerSize = mDivider.getIntrinsicHeight();
         a.recycle();
     }

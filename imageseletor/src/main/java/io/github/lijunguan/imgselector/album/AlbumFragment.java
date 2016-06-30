@@ -38,7 +38,6 @@ import io.github.lijunguan.imgselector.album.adapter.FolderListAdapter;
 import io.github.lijunguan.imgselector.album.adapter.ImageGridAdapter;
 import io.github.lijunguan.imgselector.album.previewimage.ImageDetailFragment;
 import io.github.lijunguan.imgselector.album.previewimage.ImageDetailPresenter;
-import io.github.lijunguan.imgselector.album.widget.GridDividerDecorator;
 import io.github.lijunguan.imgselector.base.BaseFragment;
 import io.github.lijunguan.imgselector.cropimage.CropActivity;
 import io.github.lijunguan.imgselector.cropimage.CropFragment;
@@ -236,7 +235,7 @@ public class AlbumFragment extends BaseFragment
         mRvImageGrid.setHasFixedSize(true);
         //给RecclerView设置GridlayoutManager，并根据配置信息，指定列数
         mRvImageGrid.setLayoutManager(new GridLayoutManager(mContext, mAlbumConfig.getGridColumns()));
-        mRvImageGrid.addItemDecoration(new GridDividerDecorator(mContext)); //添加divider
+//        mRvImageGrid.addItemDecoration(new GridDividerDecorator(mContext)); //添加divider
         mRvImageGrid.setAdapter(mImagesAdapter);
     }
 

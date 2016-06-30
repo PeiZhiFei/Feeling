@@ -6,7 +6,7 @@
     android:id="@+id/animlayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/offset_medium"
+    android:layout_margin="8dp"
     android:clickable="true"
     android:descendantFocusability="blocksDescendants"
     android:foreground="@drawable/pressed_backgorund_corner"
@@ -14,7 +14,6 @@
     app:cardCornerRadius="5dp"
     app:cardElevation="3dp"
     app:cardPreventCornerOverlap="true">
-
 
     <RelativeLayout
         android:id="@+id/wrapper"
@@ -24,21 +23,20 @@
         android:descendantFocusability="blocksDescendants"
         android:minHeight="150dp">
 
-        <com.facebook.drawee.view.SimpleDraweeView
+        <ImageView
             android:id="@+id/content_image"
             android:layout_width="match_parent"
-            android:layout_height="240dp"
+            android:layout_height="220dp"
             android:alpha="0.8"
+            android:scaleType="centerCrop"
             android:transitionName="anim"
-            android:visibility="gone"
-            app:actualImageScaleType="centerCrop"
-            app:placeholderImageScaleType="centerInside"/>
+            android:visibility="gone"/>
 
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/user_logo"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="8dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="8dp"
             app:actualImageScaleType="centerCrop"
             app:placeholderImage="@drawable/user_qianming"/>
@@ -48,7 +46,7 @@
             style="@style/TextTheme"
             android:layout_alignBottom="@id/user_logo"
             android:layout_alignTop="@id/user_logo"
-            android:layout_marginLeft="8dip"
+            android:layout_marginLeft="5dp"
             android:layout_toRightOf="@id/user_logo"
             android:gravity="center_vertical"
             android:text="岁月抚伤"
@@ -82,7 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_alignParentBottom="true"
-            android:background="#50068e3f">
+            android:background="#90068e3f">
 
             <TextView
                 android:id="@+id/item_action_comment"
@@ -91,17 +89,17 @@
                 android:drawableLeft="@drawable/ic_ask_sixin"
                 tools:text="5"/>
 
-            <TextView
-                android:id="@+id/item_action_share"
-                style="@style/action"
-                android:layout_toLeftOf="@id/item_action_comment"
-                android:drawableLeft="@drawable/info_ic_man"
-                tools:text="5"/>
+            <!--<TextView-->
+            <!--android:id="@+id/item_action_share"-->
+            <!--style="@style/action"-->
+            <!--android:layout_toLeftOf="@id/item_action_comment"-->
+            <!--android:drawableLeft="@drawable/info_ic_man"-->
+            <!--tools:text="5"/>-->
 
             <TextView
                 android:id="@+id/item_action_hate"
                 style="@style/action"
-                android:layout_toLeftOf="@id/item_action_share"
+                android:layout_toLeftOf="@id/item_action_comment"
                 android:drawableLeft="@drawable/ic_ask_buzan2"
                 tools:text="5"/>
 
@@ -114,5 +112,15 @@
         </RelativeLayout>
     </RelativeLayout>
 
-
+    <feifei.feeling.widget.LabelView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        app:lv_background_color="#f66b59"
+        app:lv_fill_triangle="true"
+        app:lv_gravity="BOTTOM_LEFT"
+        app:lv_text="hot"
+        app:lv_text_all_caps="false"
+        app:lv_text_size="10sp"/>
 </android.support.v7.widget.CardView>

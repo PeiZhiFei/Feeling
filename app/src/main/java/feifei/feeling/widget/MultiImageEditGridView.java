@@ -19,7 +19,12 @@ import library.util.BitmapUtil;
 public class MultiImageEditGridView extends GridView {
 
     private MultiImageEditAdapter mAdapter;
-    private int                   mMaxImage;
+
+    public void setmMaxImage(int mMaxImage) {
+        this.mMaxImage = mMaxImage;
+    }
+
+    private int mMaxImage;
 
     public void setAddOnClickListener(OnClickListener addOnClickListener) {
         mAdapter.setAddOnClickListener(addOnClickListener);

@@ -23,4 +23,7 @@ dependencies {
     compile project(':PickPhotos')
     compile project(':CatLoading')
     compile project(':imageseletor')
+    compile project(path: ':FoldingCell')
+    compile 'com.android.support:palette-v7:23.2.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }

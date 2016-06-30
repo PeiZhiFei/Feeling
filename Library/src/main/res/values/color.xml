@@ -100,7 +100,7 @@
     <color name="glb_yellow">#ffc158</color>
     <color name="glb_orange">#fc8417</color>
     <color name="glb_red">#f64747</color>
-
+    <color name="glb_blue_alpha">#50569ff4</color>
 
     <!-- apps backgroud colors -->
     <color name="app_bg_shelf">#56a6ff</color>

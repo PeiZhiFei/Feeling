@@ -4,14 +4,14 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.DialogFragment;
+import android.support.v4.app.DialogFragment2;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 
-public class CatLoadingView extends DialogFragment {
+public class CatLoadingView extends DialogFragment2 {
 
     public CatLoadingView() {
     }
