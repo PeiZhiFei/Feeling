@@ -27,10 +27,17 @@
             android:id="@+id/content_image"
             android:layout_width="match_parent"
             android:layout_height="220dp"
-            android:alpha="0.8"
+            android:alpha="1"
             android:scaleType="centerCrop"
-            android:transitionName="anim"
-            android:visibility="gone"/>
+            android:src="@drawable/place"
+            android:transitionName="image"
+            android:visibility="visible"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:background="#30000000" />
 
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/user_logo"
@@ -50,7 +57,8 @@
             android:layout_toRightOf="@id/user_logo"
             android:gravity="center_vertical"
             android:text="岁月抚伤"
-            android:textSize="16sp"/>
+            android:textSize="14sp"
+            android:transitionName="author"/>
 
         <ImageView
             android:id="@+id/item_action_fav"
@@ -63,15 +71,28 @@
             android:scaleType="centerInside"
             android:src="@drawable/rating_bar_small_unchecked"/>
 
+        <!--<TextView-->
+            <!--android:id="@+id/title2"-->
+            <!--style="@style/TextTheme"-->
+            <!--android:layout_alignLeft="@id/user_logo"-->
+            <!--android:layout_below="@id/user_logo"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="岁月抚伤"-->
+            <!--android:textSize="16sp"-->
+            <!--android:transitionName="title"/>-->
+
         <TextView
             android:id="@+id/content_text"
             style="@style/TextTheme"
             android:layout_below="@id/user_logo"
             android:layout_margin="8dp"
             android:ellipsize="end"
-            android:maxLines="5"
+            android:maxLines="2"
             android:padding="8dp"
             android:textSize="14sp"
+            android:transitionName="content"
             tools:text="十年之前，我不认识你 你不属于我，我们还是一样，陪在一个陌生人左右，走过渐渐熟悉的街头;十年之后，我们是朋友， 还可以问候，只是那种温柔，再也找不到拥抱的理由，情人最后难免沦为朋友。"/>
 
 

@@ -184,7 +184,7 @@ public class TS {
 //            textView.setTextColor(Color.WHITE);
             textView.setTextSize(18);
             textView.setGravity(Gravity.CENTER);
-            sbView.setPadding(0, 60, 0, 0);
+            sbView.setPadding(20, 60, 0, 0);
             sb.show();
         }
     }

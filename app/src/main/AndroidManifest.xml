@@ -33,7 +33,8 @@
 
         </activity>
         <activity
-            android:name=".PublishActivity">
+            android:name=".PublishActivity"
+            android:theme="@style/AppTheme2">
         </activity>
         <activity
             android:name="me.crosswall.photo.pick.PickPhotosActiviy"

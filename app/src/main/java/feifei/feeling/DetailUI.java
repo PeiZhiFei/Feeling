@@ -2,14 +2,14 @@ package feifei.feeling;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.Toolbar;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.facebook.drawee.view.SimpleDraweeView;
+import com.squareup.picasso.Picasso;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -20,7 +20,7 @@ import library.util.TS;
 
 public class DetailUI extends BaseActivity {
     @Bind(R.id.content_image)
-    SimpleDraweeView     contentImage;
+    ImageView            contentImage;
     @Bind(R.id.title)
     TextView             title;
     @Bind(R.id.content)
@@ -40,10 +40,12 @@ public class DetailUI extends BaseActivity {
         content = (Content) getIntent().getSerializableExtra("content");
         if (content != null) {
             if (content.getContentfigureurl() != null) {
-                contentImage.setImageURI(Uri.parse(content.getContentfigureurl().getFileUrl(this)));
+                Picasso.with(this).load(content.getContentfigureurl().getFileUrl(this)).resize(400, 600).centerInside().into(contentImage);
+//                contentImage.setImageURI(Uri.parse(content.getContentfigureurl().getFileUrl(this)));
             } else {
 //                contentImage.setVisibility(View.GONE);
-                contentImage.setImageURI(Uri.parse("res:///" + R.drawable.place));
+//                contentImage.setImageURI(Uri.parse("res:///" + R.drawable.place));
+                contentImage.setImageResource(R.drawable.place);
             }
             title.setText(content.getAuthor().getUsername());
             contents.setText(content.getContent());

@@ -64,15 +64,19 @@ public class ContentA extends MyBaseRecyclerAdapter<Content, ContentA.MyViewHold
         }
         holder.userName.setText(user.getUsername());
         holder.contentText.setText(content.getContent());
+//        holder.title2.setText(content.getTitle());
         if (content.getContentfigureurl() != null) {
             String s = content.getContentfigureurl().getFileUrl(mContext);
             if (TextUtils.isEmpty(s)) {
-                holder.contentImage.setVisibility(View.GONE);
+//                holder.contentImage.setVisibility(View.GONE);
+                holder.contentImage.setImageResource(R.drawable.place);
+                holder.contentText.setMaxLines(3);
                 holder.wrapper.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 //                holder.bottom.setBackgroundColor(mContext.getResources().getColor(R.color.glb_green));
                 holder.bottom.setBackgroundColor(Color.parseColor("#99" + Tools.scale6(Math.random() * 111111)));
             } else if (!TextUtils.isEmpty(s)) {
                 holder.contentImage.setVisibility(View.VISIBLE);
+                holder.contentText.setMaxLines(5);
                 holder.wrapper.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, Tools.dp2px(mContext, 220)));
                 Picasso.with((holder).contentImage.getContext()).load(s).resize(400, 600).centerInside().into((holder).contentImage, new Callback() {
                     @Override
@@ -80,7 +84,10 @@ public class ContentA extends MyBaseRecyclerAdapter<Content, ContentA.MyViewHold
                         Bitmap bitmap = ((BitmapDrawable) holder.contentImage.getDrawable()).getBitmap();
                         Palette.from(bitmap).generate(palette -> {
                             if (palette != null) {
-                                holder.bottom.setBackgroundColor(palette.getMutedColor(holder.itemView.getResources().getColor(R.color.primary)));
+                                int x = palette.getMutedColor(holder.itemView.getResources().getColor(R.color.primary));
+                                holder.bottom.setBackgroundColor(x);
+//                                holder.contentText.setTextColor((x - 999999) * 2);
+//                                holder.contentText.setTextColor(Color.WHITE);
                             }
                         });
                     }
@@ -96,6 +103,7 @@ public class ContentA extends MyBaseRecyclerAdapter<Content, ContentA.MyViewHold
         }
 
         if (content.getContent().length() >= 60) {
+            holder.contentText.setMaxLines(5);
             holder.wrapper.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, Tools.dp2px(mContext, 220)));
         }
         if (position % 3 == 0) {
@@ -125,6 +133,8 @@ public class ContentA extends MyBaseRecyclerAdapter<Content, ContentA.MyViewHold
         SimpleDraweeView userLogo;
         @Bind(R.id.user_name)
         TextView         userName;
+//        @Bind(R.id.title2)
+//        TextView         title2;
         @Bind(R.id.content_text)
         TextView         contentText;
         @Bind(R.id.content_image)

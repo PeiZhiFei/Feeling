@@ -1,12 +1,15 @@
 package feifei.feeling;
 
 import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
+import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +19,7 @@ import android.widget.TextView;
 
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
 import com.roger.catloadinglibrary.CatLoadingView;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -91,8 +95,8 @@ public class NewsFragment extends Fragment {
             int pos = contentA.getItemPosById(objid);
             this.pos = pos;
             L.l(pos);
-            Intent intent = new Intent(getActivity(), DetailUI.class);
-            intent.putExtra("content", contentA.getItem(pos));
+//            Intent intent = new Intent(getActivity(), DetailUI.class);
+//            intent.putExtra("content", contentA.getItem(pos));
 
 //            View transitionImage = v.findViewById(R.id.content_image);
 //            if (transitionImage != null) {
@@ -108,8 +112,35 @@ public class NewsFragment extends Fragment {
 //                ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(getActivity(), sharedView, transitionName);
 //                startActivity(intent, transitionActivityOptions.toBundle());
 //            } else {
-            startActivityForResult(intent, 3);
-            getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+
+
+//            startActivityForResult(intent, 3);
+//            getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            Intent intent = new Intent(getActivity(), DetailUI.class);
+            intent.putExtra("content", contentA.getItem(pos));
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                View image = v.findViewById(R.id.content_image);
+                View author = v.findViewById(R.id.user_name);
+                View content = v.findViewById(R.id.content_text);
+//                View floatAcb = activity.getActionButton();
+
+                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(getActivity(),
+                        Pair.create(image, "image"),
+                        Pair.create(author, "author"),
+//                        Pair.create(floatAcb, "floatAcb"),
+                        Pair.create(content, "content"));
+                try {
+                    Picasso.with(getActivity()).load(contentA.getItem(pos).getContentfigureurl().getFileUrl(getActivity()));
+                } catch (Exception e) {
+                }
+
+                startActivityForResult(intent, 3, options.toBundle());
+            } else {
+                startActivityForResult(intent, 3);
+                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+            }
+
+
 //            }
 
         });
@@ -262,7 +293,7 @@ public class NewsFragment extends Fragment {
 
     public void refresh(boolean anim) {
         if (!anim || first) {
-            loadingView.show(getActivity().getSupportFragmentManager(), "正在加载中……");
+            loadingView.show(getActivity().getSupportFragmentManager(), "");
         }
         BmobQuery<Content> query = new BmobQuery<>();
         query.order("-createdAt");
@@ -276,15 +307,12 @@ public class NewsFragment extends Fragment {
         query.findObjects(getActivity(), new FindListener<Content>() {
 
             @Override
-            public void onSuccess(List<Content> list) {
-                contentA.setList(list);
+            public void onSuccess(List<Content> list2) {
+                contentA.setList(list2);
                 if (anim) {
                     anim();
                 }
-            }
 
-            @Override
-            public void onFinish() {
                 if (list != null) {
                     list.refreshComplete();
                 }
@@ -295,8 +323,10 @@ public class NewsFragment extends Fragment {
                     }
                     first = false;
                 }
+            }
 
-
+            @Override
+            public void onFinish() {
 //                LinearLayout l = mDropDownMenu.getTabMenuView();
 //                for (int i = 0; i < l.getChildCount(); i++) {
 //                    TextView tv = (TextView) l.getChildAt(i);
@@ -308,7 +338,20 @@ public class NewsFragment extends Fragment {
 
             @Override
             public void onError(int arg0, String arg1) {
-                TS.s(getActivity(), "加载失败" + arg0 + "%%%%" + arg1);
+
+//                TSnackbar.make(list, "加载失败" + arg0 + "%%%%" + arg1, Prompt.ERROR).show();
+                TS.tip(getActivity(), "加载失败" + arg0 + "%%%%" + arg1);
+                if (list != null) {
+                    list.refreshComplete();
+                }
+                if ((first || !anim) && loadingView != null) {
+                    try {
+                        loadingView.dismiss();
+                    } catch (Exception e) {
+                    }
+                    first = false;
+                }
+
             }
         });
     }
@@ -345,7 +388,14 @@ public class NewsFragment extends Fragment {
 
             @Override
             public void onError(int arg0, String arg1) {
-                TS.s(getActivity(), "加载失败" + arg0 + "%%%%" + arg1);
+//                TSnackbar.make(list, "加载失败" + arg0 + "%%%%" + arg1, Prompt.ERROR).show();
+                TS.tip(getActivity(), "加载失败" + arg0 + "%%%%" + arg1);
+                if (list != null) {
+                    list.refreshComplete();
+                }
+                if (loadingView != null) {
+                    loadingView.dismiss();
+                }
             }
         });
     }

@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/projects_bg"/>
+
     <com.jcodecraeer.xrecyclerview.XRecyclerView
         android:id="@+id/list"
         android:layout_width="match_parent"
@@ -28,7 +34,7 @@
         app:ddmenuSelectedIcon="@drawable/drop_down_selected_icon"
         app:ddmenuTextSize="13sp"
         app:ddmenuUnselectedIcon="@drawable/drop_down_unselected_icon"
-        app:ddtextSelectedColor="@color/drop_down_selected"
+        app:ddtextSelectedColor="@color/glb_blue"
         app:ddtextUnselectedColor="@color/drop_down_unselected"
         app:ddunderlineColor="@color/gray"/>
     <!--app:layout_widthPercent="75%"-->

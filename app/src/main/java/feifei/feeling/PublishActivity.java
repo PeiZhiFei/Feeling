@@ -18,6 +18,8 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
+import com.roger.catloadinglibrary.CatLoadingView;
+
 import java.io.File;
 import java.util.ArrayList;
 
@@ -49,6 +51,8 @@ public class PublishActivity extends BaseActivity implements RevealBackgroundVie
     @Bind(R.id.vRevealBackground)
     RevealBackgroundView   vRevealBackground;
 
+    CatLoadingView loadingView;
+
     public static final  String       ARG_REVEAL_START_LOCATION = "reveal_start_location";
     private static final Interpolator ACCELERATE_INTERPOLATOR   = new AccelerateInterpolator();
     private static final Interpolator DECELERATE_INTERPOLATOR   = new DecelerateInterpolator();
@@ -63,6 +67,7 @@ public class PublishActivity extends BaseActivity implements RevealBackgroundVie
         imageGridView.setmMaxImage(5);
         imageGridView.setAddOnClickListener(view -> takeImage());
         setupRevealBackground(savedInstanceState);
+        loadingView = new CatLoadingView();
     }
 
     public static void startCameraFromLocation(int[] startingLocation, Activity startingActivity) {
@@ -150,16 +155,16 @@ public class PublishActivity extends BaseActivity implements RevealBackgroundVie
         String titles = title.getText().toString().trim();
         String commitContent = content.getText().toString().trim();
         if (TextUtils.isEmpty(titles)) {
-            TS.s(this, "请输入标题");
+//            TSnackbar.make(vRevealBackground, "请输入标题", Prompt.WARNING).show();
+            TS.tip(this, "请输入标题");
         } else if (TextUtils.isEmpty(commitContent)) {
-            TS.s(this, "请输入内容");
+//            TSnackbar.make(vRevealBackground, "请输入内容", Prompt.WARNING).show();
+            TS.tip(this, "请输入内容");
         } else if (imageGridView.getImages().size() > 0) {
+            show();
+
             Bitmap b = imageGridView.getImages().get(0);
             long x = System.currentTimeMillis();
-
-//            if (b == null) {
-//                L.l("########");
-//            }
 
             FileUtil.saveBitmap(b, FileUtil.getRootPath(), x + "");
 //            L.l(FileUtil.getRootPath() + x + ".JPEG");
@@ -174,7 +179,9 @@ public class PublishActivity extends BaseActivity implements RevealBackgroundVie
 
                 @Override
                 public void onFailure(int arg0, String arg1) {
-                    TS.s(PublishActivity.this, "上传文件失败" + arg0 + arg1);
+                    TS.tip(PublishActivity.this, "上传文件失败" + arg0 + arg1);
+//                    TSnackbar.make(vRevealBackground, "上传文件失败" + arg0 + arg1, Prompt.ERROR).show();
+                    hide();
                 }
             });
         } else {
@@ -182,8 +189,26 @@ public class PublishActivity extends BaseActivity implements RevealBackgroundVie
         }
     }
 
+    boolean show = false;
+
+    private void show() {
+        loadingView.show(getSupportFragmentManager(), "");
+        show = true;
+    }
+
+    private void hide() {
+        try {
+            loadingView.dismiss();
+        } catch (Exception e) {
+        }
+        show = false;
+    }
+
     private void publishWithoutFigure(final String titles, final String commitContent,
                                       final BmobFile figureFile) {
+        if (!show) {
+            show();
+        }
         User user = BmobUser.getCurrentUser(this, User.class);
 
         final Content qiangYu = new Content();
@@ -203,13 +228,16 @@ public class PublishActivity extends BaseActivity implements RevealBackgroundVie
             @Override
             public void onSuccess() {
 //                TS.s(PublishActivity.this, "发表成功");
-                setResult(RESULT_OK);
+                hide();
+                setResult(Activity.RESULT_OK);
                 finish();
             }
 
             @Override
             public void onFailure(int arg0, String arg1) {
-                TS.s(PublishActivity.this, "发表失败");
+                TS.tip(PublishActivity.this, "发表失败");
+//                TSnackbar.make(vRevealBackground, "发表失败" + arg0 + arg1, Prompt.ERROR).show();
+                hide();
             }
         });
     }

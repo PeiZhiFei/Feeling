@@ -19,13 +19,19 @@ import com.nineoldandroids.view.ViewPropertyAnimator;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import feifei.feeling.fab.FloatingActionButton;
 
 public class MainActivity extends BaseActivity {
 
     @Bind(R.id.toolbar)
-    Toolbar                                 mToolbar;
+    Toolbar      mToolbar;
     @Bind(R.id.drawer_layout)
-    DrawerLayout                            mDrawerLayout;
+    DrawerLayout mDrawerLayout;
+
+    public FloatingActionButton getActionButton() {
+        return actionButton;
+    }
+
     @Bind(R.id.action_b)
     feifei.feeling.fab.FloatingActionButton actionButton;
 
@@ -52,6 +58,7 @@ public class MainActivity extends BaseActivity {
 //        simpleDraweeView.setImageURI(Uri.parse("peizhifei.github.io/imgs/me/logo.jpg"));
         simpleDraweeView.setImageURI(Uri.parse("res:///" + R.drawable.logo));
         simpleDraweeView.setOnClickListener(v -> {
+            mDrawerLayout.closeDrawers();
             startActivity(new Intent(this, UserCenter.class));
         });
         mNavigationView.setNavigationItemSelectedListener(item -> {
@@ -138,7 +145,10 @@ public class MainActivity extends BaseActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == 5 && resultCode == Activity.RESULT_OK) {
-            newsFragment.refresh(false);
+            new android.os.Handler().postDelayed(() -> {
+                newsFragment.refresh(false);
+            }, 1000);
+
         }
         super.onActivityResult(requestCode, resultCode, data);
     }

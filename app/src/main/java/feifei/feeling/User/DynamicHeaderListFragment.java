@@ -28,6 +28,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import feifei.feeling.R;
+import library.widget.DividerItemDecoration;
 
 /**
  * This fragment holds a list of elements using a @{RecyclerView}. At the top of the list there is a header that
@@ -74,18 +75,18 @@ public class DynamicHeaderListFragment extends Fragment implements ClickableView
 
         return new Contact[]{
 
-                new Contact("Pio Baroja", "123", true),
-                new Contact("Miguel Hernandez", "456", false),
-                new Contact("Miguel de Cervantes", "789", false),
-                new Contact("Juan Ramón Jimenez", "101", true),
-                new Contact("Miguel de Unamuno", "112", true),
-                new Contact("Antonio Machado", "175", false),
-                new Contact("Federico García Lorca", "623", false),
-                new Contact("Ramiro de Maeztu", "999", true),
-                new Contact("Ramón María del Valle-Inclán", "747", false),
-                new Contact("Ángel Ganivet", "622", false),
-                new Contact("Enrique de Mesa", "278", true),
-                new Contact("Azorín", "345", false)
+                new Contact("个人中心", "123", true),
+                new Contact("昵称：程序疯子", "112", true),
+                new Contact("性别：男", "456", false),
+                new Contact("地址：北京市东城区", "789", false),
+                new Contact("签名：你好就好", "101", true),
+                new Contact("手机：17180102847", "175", false),
+                new Contact("邮箱：351827417@qq.com", "623", false),
+                new Contact("生日：6月1日", "999", true),
+                new Contact("年龄：24", "747", false),
+                new Contact("微信：pzf6886", "747", true),
+                new Contact("身高：172cm", "747", true),
+                new Contact("体重：65kg", "747", true)
         };
     }
 
@@ -150,7 +151,7 @@ public class DynamicHeaderListFragment extends Fragment implements ClickableView
 
         recyclerView.setHasFixedSize(true);
         recyclerView.addOnScrollListener(scrollListener);
-
+//        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity()));
         layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(contactListAdapter);

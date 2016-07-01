@@ -36,7 +36,7 @@ public class DropDownMenu extends LinearLayout {
     //分割线颜色
     private int dividerColor        = 0xffcccccc;
     //tab选中颜色
-    private int textSelectedColor   = 0xff890c85;
+    private int textSelectedColor   = 0xff569ff4;
     //tab未选中颜色
     private int textUnselectedColor = 0xff111111;
     //遮罩颜色
