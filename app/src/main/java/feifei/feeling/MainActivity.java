@@ -72,7 +72,7 @@ public class MainActivity extends BaseActivity {
                     mDrawerLayout.closeDrawers();
                     switch2Images();
                     break;
-                case R.id.item_about:
+                case R.id.item_team:
                     mDrawerLayout.closeDrawers();
                     switch2Weather();
                     break;
@@ -133,8 +133,9 @@ public class MainActivity extends BaseActivity {
     }
 
     public void switch2Weather() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new NewsFragment()).commit();
-        mToolbar.setTitle(R.string.navigation_weather);
+        startActivity(new Intent(this, TeamActivity.class));
+//        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new NewsFragment()).commit();
+//        mToolbar.setTitle(R.string.navigation_weather);
     }
 
     public void switch2About() {

@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CatLoading" />
+            <option value="$PROJECT_DIR$/Euclid" />
             <option value="$PROJECT_DIR$/FoldingCell" />
             <option value="$PROJECT_DIR$/Library" />
             <option value="$PROJECT_DIR$/PickPhotos" />
@@ -22,6 +23,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CatLoading" />
+            <option value="$PROJECT_DIR$/Euclid" />
             <option value="$PROJECT_DIR$/FoldingCell" />
             <option value="$PROJECT_DIR$/Library" />
             <option value="$PROJECT_DIR$/PickPhotos" />

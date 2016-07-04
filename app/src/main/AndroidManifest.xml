@@ -55,7 +55,10 @@
         </activity>
         <activity
             android:name=".UserCenter"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".TeamActivity"
+            android:theme="@style/AppTheme2">
         </activity>
     </application>
 

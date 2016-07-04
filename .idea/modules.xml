@@ -3,14 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CatLoading/CatLoading.iml" filepath="$PROJECT_DIR$/CatLoading/CatLoading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Euclid/Euclid.iml" filepath="$PROJECT_DIR$/Euclid/Euclid.iml" />
       <module fileurl="file://$PROJECT_DIR$/Feeling.iml" filepath="$PROJECT_DIR$/Feeling.iml" />
       <module fileurl="file://$PROJECT_DIR$/FoldingCell/FoldingCell.iml" filepath="$PROJECT_DIR$/FoldingCell/FoldingCell.iml" />
       <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
       <module fileurl="file://$PROJECT_DIR$/PickPhotos/PickPhotos.iml" filepath="$PROJECT_DIR$/PickPhotos/PickPhotos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tsnackbar/Tsnackbar.iml" filepath="$PROJECT_DIR$/Tsnackbar/Tsnackbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/XRecyclerView/XRecyclerView.iml" filepath="$PROJECT_DIR$/XRecyclerView/XRecyclerView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/imageseletor/imageseletor.iml" filepath="$PROJECT_DIR$/imageseletor/imageseletor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tsnackbar/tsnackbar.iml" filepath="$PROJECT_DIR$/Tsnackbar/tsnackbar.iml" />
     </modules>
   </component>
 </project>
