@@ -1,8 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:id="@+id/wrapper"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <FrameLayout
         android:id="@+id/toolbar_list"
@@ -17,7 +17,7 @@
             android:fontFamily="sans-serif-bold"
             android:text="@string/title_following"
             android:textColor="@color/white"
-            android:textSize="@dimen/text_size_toolbar_title"/>
+            android:textSize="@dimen/text_size_toolbar_title" />
 
     </FrameLayout>
 
@@ -28,7 +28,7 @@
         android:layout_below="@+id/toolbar_list"
         android:background="@color/gray5"
         android:divider="@drawable/list_divider"
-        tools:listitem="@layout/list_item"/>
+        tools:listitem="@layout/list_item" />
 
     <RelativeLayout
         android:id="@+id/toolbar_profile"
@@ -45,14 +45,13 @@
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
             android:layout_gravity="center"
-            android:padding="15dp"
-            android:src="@drawable/ic_arrow_left"/>
+            android:padding="5dp"
+            android:src="@drawable/ic_arrow_left" />
 
         <RelativeLayout
             android:layout_width="200dp"
             android:layout_height="33dp"
-            android:layout_centerInParent="true"
-            >
+            android:layout_centerInParent="true">
 
             <TextView
                 style="@style/TextViewProfileToolbarTitle"
@@ -60,7 +59,7 @@
                 android:layout_height="33dp"
                 android:layout_centerInParent="true"
                 android:text="@string/toolbar_bio"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white" />
 
             <!--<TextView-->
             <!--android:text="@string/toolbar_bio"-->
@@ -97,7 +96,7 @@
             android:fontFamily="sans-serif-light"
             android:textColor="@color/gray5"
             android:textSize="32sp"
-            tools:text="SOPHIA"/>
+            tools:text="SOPHIA" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -113,7 +112,7 @@
                 android:fontFamily="sans-serif"
                 android:textColor="@color/gray5"
                 android:textSize="18sp"
-                tools:text="@string/lorem_ipsum_long"/>
+                tools:text="@string/lorem_ipsum_long" />
 
         </ScrollView>
 
@@ -127,6 +126,6 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="15dp"
         android:layout_marginTop="@dimen/margin_top_button_message"
-        android:visibility="invisible"/>
+        android:visibility="invisible" />
 
 </RelativeLayout>

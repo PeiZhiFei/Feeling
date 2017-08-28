@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 apply plugin: 'me.tatarka.retrolambda'
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         applicationId "feifei.feeling"
@@ -24,7 +24,7 @@ dependencies {
     compile project(':CatLoading')
     compile project(':imageseletor')
     compile project(path: ':FoldingCell')
-    compile 'com.android.support:palette-v7:23.2.0'
+    compile 'com.android.support:palette-v7:25.3.1'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile project(':Tsnackbar')
     compile project(path: ':Euclid')

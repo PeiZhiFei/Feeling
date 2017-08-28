@@ -2,8 +2,9 @@ package feifei.feeling;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.BaseAdapter;
-import android.widget.Toast;
 
 import com.yalantis.euclid.library.EuclidActivity;
 import com.yalantis.euclid.library.EuclidListAdapter;
@@ -13,16 +14,21 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import library.util.TS;
+
 public class TeamActivity extends EuclidActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);//隐藏标题栏
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//隐藏状态栏
         super.onCreate(savedInstanceState);
 
         mButtonProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(TeamActivity.this, "点赞", Toast.LENGTH_SHORT).show();
+                TS.s(TeamActivity.this, "点赞");
+//                Toast.makeText(TeamActivity.this, "点赞", Toast.LENGTH_SHORT).show();
             }
         });
     }

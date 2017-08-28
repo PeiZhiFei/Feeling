@@ -6,7 +6,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:2.2.2'
         classpath 'me.tatarka:gradle-retrolambda:3.2.5'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6'
@@ -26,8 +26,8 @@ task clean(type: Delete) {
 }
 
 ext {
-    supportLibsVersion = '23.1.1'
-    recycleviewSupportLibsVersion = '23.3.0'
+    supportLibsVersion = '25.3.1'
+    recycleviewSupportLibsVersion = '25.3.1'
 //    supportLibsVersion = '24.0.0-alpha1'
 //    buildToolsVersion = '24.0.0 rc2'
 ////    原来定义了可以这么用，在project的gradle里面定义了可以全局使用
@@ -35,15 +35,15 @@ ext {
 
     configuration = [
             packageName       : "io.lijunguan.github.sample",
-            buildToolsVersion : "23.0.3",
-            compileVersion    : 23,
+            buildToolsVersion : "25.0.2",
+            compileVersion    : 25,
             minSDK           : 11,
             targetSDK         : 23,
             version_code      : 1,
             version_name      : "0.01"
     ]
     libs         = [
-            supportVersion    : "23.2.1",
+            supportVersion    : "25.3.1",
             glide             : "3.7.0",
             butterknife       : "7.0.1"
     ]

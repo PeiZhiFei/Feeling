@@ -19,20 +19,7 @@
             <option value="$PROJECT_DIR$/imageseletor" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/CatLoading" />
-            <option value="$PROJECT_DIR$/Euclid" />
-            <option value="$PROJECT_DIR$/FoldingCell" />
-            <option value="$PROJECT_DIR$/Library" />
-            <option value="$PROJECT_DIR$/PickPhotos" />
-            <option value="$PROJECT_DIR$/Tsnackbar" />
-            <option value="$PROJECT_DIR$/XRecyclerView" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/imageseletor" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

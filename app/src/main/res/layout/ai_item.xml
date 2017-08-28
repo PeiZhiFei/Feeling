@@ -101,7 +101,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_alignParentBottom="true"
-            android:background="#90068e3f">
+            android:background="#90636363">
 
             <TextView
                 android:id="@+id/item_action_comment"

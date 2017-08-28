@@ -86,6 +86,9 @@ public class DynamicHeaderListFragment extends Fragment implements ClickableView
                 new Contact("年龄：24", "747", false),
                 new Contact("微信：pzf6886", "747", true),
                 new Contact("身高：172cm", "747", true),
+                new Contact("体重：65kg", "747", true),
+                new Contact("体重：65kg", "747", true),
+                new Contact("体重：65kg", "747", true),
                 new Contact("体重：65kg", "747", true)
         };
     }

@@ -293,7 +293,10 @@ public class NewsFragment extends Fragment {
 
     public void refresh(boolean anim) {
         if (!anim || first) {
-            loadingView.show(getActivity().getSupportFragmentManager(), "");
+            try {
+                loadingView.show(getActivity().getSupportFragmentManager(), "");
+            } catch (Exception e) {
+            }
         }
         BmobQuery<Content> query = new BmobQuery<>();
         query.order("-createdAt");
