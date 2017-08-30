@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.feifei.lifetools.FlashlightSurface
+        android:id="@+id/surfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/open"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/torch_off"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:background="@color/transparent" />
+
+<!--     <Button -->
+<!--         android:id="@+id/button2" -->
+<!--         style="?android:attr/buttonStyleSmall" -->
+<!--         android:layout_width="30dp" -->
+<!--         android:layout_height="30dp" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:alpha="0.1" -->
+<!--         android:background="@drawable/setting" /> -->
+
+    <ImageView
+        android:id="@+id/wallper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+</RelativeLayout>

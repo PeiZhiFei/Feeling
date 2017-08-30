@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/yuntu_dialog_layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/youlan"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/youlan" />
+
+    <LinearLayout
+        android:id="@+id/yuntu_dialog_layout_wait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="@drawable/progressbar_dialog" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/yuntu_dialog_layout_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#0000"
+        android:divider="@color/dividerlan"
+        android:dividerHeight="0.5dip"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/yuntu_dialog_layout_deliver"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerlan" />
+
+    <TextView
+        android:id="@+id/yuntu_dialog_layout_onebutton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/button_gray_down"
+        android:gravity="center"
+        android:textColor="@color/lightblack"
+        android:textSize="16.0dip" />
+
+    <LinearLayout
+        android:id="@+id/yuntu_dialog_layout_twobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/yuntu_dialog_layout_leftbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_gray_left"
+            android:gravity="center"
+            android:textColor="@color/youlan"
+            android:textSize="16.0dip" />
+
+        <TextView
+            android:id="@+id/yuntu_dialog_layout_rightbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_gray_right"
+            android:gravity="center"
+            android:textColor="@color/youlan"
+            android:textSize="16.0dip" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wl_blue_default2">
+
+    <TextView
+        android:id="@+id/desktext"
+        style="@style/newstyle"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_gravity="center"
+        android:layout_margin="6.0dip"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="6.0dip"
+        android:textSize="16.0sp" />
+</FrameLayout>
+
+    <!-- android:drawableRight="@drawable/wl_star"-->

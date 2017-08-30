@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/raw/merge.wav",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/raw/merge.wav"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/raw/move.wav",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/raw/move.wav"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/raw/alarm.mp3",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/raw/alarm.mp3"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/raw/mypackage",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/raw/mypackage"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/raw/news.mp3",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/raw/news.mp3"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/raw/companyinfos.json",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/raw/companyinfos.json"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/raw/sound.ogg",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/raw/sound.ogg"
+    }
+]

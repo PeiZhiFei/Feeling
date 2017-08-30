@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!--<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="#ffffff"--><!-- --><!--android:orientation="vertical">-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+
+    <Button
+        android:id="@+id/complete"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_green"
+        android:text="已完成"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/note"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_green"
+        android:text="印象笔记"
+        android:textColor="@color/white" />
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/note"
+        android:layout_gravity="fill"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_green"
+        android:gravity="center_vertical"
+        android:hint="请输入几个事项吧"
+        android:paddingLeft="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/edittext"
+        android:gravity="center">
+
+    </LinearLayout>
+</RelativeLayout>

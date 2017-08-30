@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout-ldrtl-v17/md_simplelist_item.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout-ldrtl/md_simplelist_item.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout-ldrtl-v17/md_listitem_singlechoice.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout-ldrtl/md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout-ldrtl-v17/md_listitem_multichoice.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout-ldrtl/md_listitem_multichoice.xml"
+    }
+]

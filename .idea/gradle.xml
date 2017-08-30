@@ -8,15 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/CatLoading" />
-            <option value="$PROJECT_DIR$/Euclid" />
-            <option value="$PROJECT_DIR$/FoldingCell" />
+            <option value="$PROJECT_DIR$/Apps" />
             <option value="$PROJECT_DIR$/Library" />
-            <option value="$PROJECT_DIR$/PickPhotos" />
-            <option value="$PROJECT_DIR$/Tsnackbar" />
-            <option value="$PROJECT_DIR$/XRecyclerView" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/imageseletor" />
+            <option value="$PROJECT_DIR$/Lifetools" />
+            <option value="$PROJECT_DIR$/Project" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

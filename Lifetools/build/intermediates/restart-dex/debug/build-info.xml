@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="1393264645510303"
+    token="-7050045942205496216"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="373" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="213" />
+    <task
+        name="verifier"
+        duration="14" />
+
+    <artifact
+        location="/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/outputs/apk/Lifetools-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1393264645510303"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/outputs/apk/Lifetools-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

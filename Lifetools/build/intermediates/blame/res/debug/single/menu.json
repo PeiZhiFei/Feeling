@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/menu/esdk__oauth.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/evernote/res/menu/esdk__oauth.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/menu/setting.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/menu/setting.xml"
+    }
+]

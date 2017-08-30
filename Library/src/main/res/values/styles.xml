@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="sfd">#555555</color>
-
+    <color name="old_green">#39ac69</color>
+    <drawable name="old_green">#39ac69</drawable>
     <style name="BlurDialogFragment.Default.Animation" parent="@android:style/Animation.Activity">
         <item name="android:windowEnterAnimation">@anim/unzoom_in</item>
         <item name="android:windowExitAnimation">@anim/zoom_exit</item>
     </style>
-
+    <style name="diliver">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#e1e1e1</item>
+    </style>
 
     <style name="dialog_style" parent="android:style/Theme.Dialog">
         <!-- 无标题 -->

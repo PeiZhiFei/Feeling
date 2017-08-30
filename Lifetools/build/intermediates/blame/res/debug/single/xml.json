@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/xml/nav_states.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/materialview/res/xml/nav_states.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/xml/widget_info.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/xml/widget_info.xml"
+    }
+]

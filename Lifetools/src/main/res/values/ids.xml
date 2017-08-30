@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="quit" type="id"/>
+
+    <!-- 指南针 -->
+    <item name="view_compass" type="id">false</item>
+    <item name="pressure_altitude" type="id">false</item>
+    <item name="pressure_show" type="id">false</item>
+    <item name="altitude_show" type="id">false</item>
+    <item name="layout_direction" type="id">false</item>
+    <item name="compass_pointer" type="id">false</item>
+    <item name="layout_angle" type="id">false</item>
+    <item name="bottom_unit" type="id">false</item>
+    <item name="textview_location_latitude" type="id">false</item>
+    <item name="textview_location_latitude_degree" type="id">false</item>
+    <item name="textview_location_longitude" type="id">false</item>
+    <item name="textview_location_longitude_degree" type="id">false</item>
+    <item name="bottom_unit_pressure" type="id">false</item>
+    <item name="textview_pressure" type="id">false</item>
+    <item name="bottom_unit_altitude" type="id">false</item>
+    <item name="textview_altitude" type="id">false</item>
+    <item name="menu_calibrate_altitude" type="id">false</item>
+    <item name="menu_calibrate" type="id">false</item>
+
+</resources>

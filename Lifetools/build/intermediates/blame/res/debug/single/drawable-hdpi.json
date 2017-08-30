@@ -1,0 +1,378 @@
+[
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/progress_inner.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/progress_inner.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/lifetools_logo.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/lifetools_logo.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/package_ditail_middle.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/package_ditail_middle.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/w.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/w.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_pressed_holo_light.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/line_arrow_up.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/line_arrow_up.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/background_compass.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/background_compass.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/e.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/e.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/scan_button_flash_normal.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/scan_button_flash_normal.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/contact_index.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/contact_index.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/edit_black.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/edit_black.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/scan_button_flash_pressed.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/scan_button_flash_pressed.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/right.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/right.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/alert_bg.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/alert_bg.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_pressed_holo_dark.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_scan.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_scan.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/scan_button_myqrcode_normal.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/scan_button_myqrcode_normal.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/e_cn.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/e_cn.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_package.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_package.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_unlock.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_unlock.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/listview_down.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/listview_down.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_clear_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/scan_button_photo_pressed.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/scan_button_photo_pressed.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/edit_pressed.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/edit_pressed.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/alert_btn_single_pressed.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/alert_btn_single_pressed.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/contact_line.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/contact_line.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_setting.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_setting.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_longpressed_holo.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_computer.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_computer.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/scan_button_flash_disable.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/scan_button_flash_disable.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/n_cn.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/n_cn.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/background_bottom_2.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/background_bottom_2.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/alert_btn_right_pressed.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/alert_btn_right_pressed.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/scan_button_myqrcode_pressed.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/scan_button_myqrcode_pressed.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/edit_normal.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/edit_normal.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/alert_btn_left_pressed.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/alert_btn_left_pressed.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/grid_item.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/grid_item.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/n.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/n.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/search_delete.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/search_delete.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/popmap.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/popmap.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/package_ditail_first.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/package_ditail_first.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_compass.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_compass.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_focused_holo.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/w_cn.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/w_cn.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/dialog_loading.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/dialog_loading.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/scan_button_photo_normal.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/scan_button_photo_normal.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/s.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/s.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/progress_outer.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/progress_outer.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_calculator.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_calculator.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/down.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/down.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_torch.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_torch.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_note.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_note.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/package_ditail_last.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/package_ditail_last.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/s_cn.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/s_cn.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_popup_background_mtrl_mult.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/myimage.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/myimage.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi/circle_money.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/circle_money.png"
+    }
+]

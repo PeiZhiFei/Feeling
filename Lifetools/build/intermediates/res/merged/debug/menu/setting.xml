@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AppCompatResource">
+    <item
+        android:id="@+id/action1"
+        android:icon="@drawable/icon_notice"
+        android:showAsAction="withText"
+        android:title="随意换肤" />
+    <item
+        android:id="@+id/action2"
+        android:icon="@drawable/icon_notice"
+        android:showAsAction="withText"
+        android:title="振动" />
+    <item
+        android:id="@+id/action3"
+        android:icon="@drawable/icon_notice"
+        android:showAsAction="withText"
+        android:title="精简" />
+    <item
+        android:id="@+id/action4"
+        android:icon="@drawable/icon_notice"
+        android:showAsAction="withText"
+        android:title="意见反馈" />
+    <item
+        android:id="@+id/action5"
+        android:icon="@drawable/icon_notice"
+        android:showAsAction="withText"
+        android:title="保存到印象笔记" />
+    <!--android:checkable="true"-->
+</menu>

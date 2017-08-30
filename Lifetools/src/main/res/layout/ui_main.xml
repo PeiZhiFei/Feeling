@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.feifei.game.GameActivity">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/score1"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="得分:"
+            android:textColor="#50ff0000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="#50ff0000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/high"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="#802125b7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <Button
+            style="@style/game_button"
+            android:onClick="restart"
+            android:text="重新开始" />
+
+        <Button
+            style="@style/game_button"
+            android:onClick="role"
+            android:text="图像模式" />
+
+        <Button
+            style="@style/game_button"
+            android:onClick="custom"
+            android:text="色调模式" />
+
+        <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:onClick="grid"-->
+        <!--android:text="网格设置"-->
+        <!--android:textColor="#ff23b76e"-->
+        <!--android:textSize="16sp"-->
+        <!--android:visibility="gone" />-->
+   <!--     <Button
+            style="@style/game_button"
+            android:onClick="feedback"
+            android:text="意见反馈" />-->
+
+        <!--<com.rey.material.widget.Button-->
+        <!--android:id="@+id/button_bt_raise_wave_color"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--style="@style/RaiseWaveColorButtonRippleStyle"-->
+        <!--android:text="自定义"-->
+        <!--android:textColor="#ff94b7a2"-->
+        <!--android:textSize="15sp"-->
+        <!--android:onClick="d_images"-->
+        <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"-->
+        <!--/>-->
+
+
+    </LinearLayout>
+
+
+    <!--<com.feifei.game.GameView-->
+    <!--android:id="@+id/gameview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_above="@id/bottom"-->
+    <!--android:layout_below="@id/score"-->
+    <!--android:layout_marginRight="5dp" />-->
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom"
+        android:layout_below="@id/top"
+        android:layout_marginRight="3dp" />
+
+
+</RelativeLayout>

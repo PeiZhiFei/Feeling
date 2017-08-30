@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi-v4/torch_off.jpg",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/torch_off.jpg"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi-v4/login_image2.jpg",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/login_image2.jpg"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi-v4/torch_on.jpg",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/torch_on.jpg"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi-v4/login_image1.jpg",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/login_image1.jpg"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable-hdpi-v4/login_image3.jpg",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable-hdpi/login_image3.jpg"
+    }
+]

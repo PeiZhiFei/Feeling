@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="1"
+        android:orientation="horizontal"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/buttoncolor"
+            android:width="200dp"
+            android:height="50dp"
+            android:gravity="center"
+            android:onClick="color"
+            android:text="更改文字颜色" />
+
+        <TextView
+            android:id="@+id/textx"
+            android:width="200dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#ff23b76e" />
+
+        <com.rey.material.widget.Slider
+            android:id="@+id/seekBar1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:sl_primaryColor="#ff48a0b7"
+            app:sl_secondaryColor="#ff5f70b7"
+            app:sl_maxValue="20"
+            app:sl_minValue="3" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/texty"
+            android:width="200dp"
+            android:gravity="center"
+            android:textColor="#ff23b76e" />
+
+        <com.rey.material.widget.Slider
+            android:id="@+id/seekBar2"
+            android:layout_width="200dp"
+            app:sl_primaryColor="#ffb74e54"
+            app:sl_secondaryColor="#ffb75d57"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:sl_maxValue="50"
+            app:sl_minValue="5" />
+    </GridLayout>
+</LinearLayout>

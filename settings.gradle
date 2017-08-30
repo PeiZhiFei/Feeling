@@ -1,1 +1,1 @@
-include ':app', ':Library', ':XRecyclerView', ':PickPhotos', ':imageseletor', ':CatLoading', ':FoldingCell', ':Tsnackbar', ':Euclid'
+include ':Library', ':Project', ':Apps', ':Lifetools'

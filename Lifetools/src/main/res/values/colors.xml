@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pager">#eef8e0a0</color>
+    <color name="lines">#ff0000ff</color>
+    <color name="margin">#90ff0000</color>
+    <color name="text">#aa0000ff</color>
+
+    <color name="background_color">#F555</color>
+    <color name="marker_color">#AFFF</color>
+    <color name="text_color">#AFFF</color>
+    <color name="popupwindow_background">#eef8e0a0</color>
+    <color name="greydark">#9e9e9e</color>
+
+    <dimen name="margin">30dp</dimen>
+
+    <color name="colorPrimary">#2f9c6d</color>
+    <color name="colorPrimaryDark">#902f9c6d</color>
+    <color name="colorAccent">#3586ff</color>
+
+    <color name="menu_text_normal">#999999</color>
+    <color name="menu_text_selected">@color/colorPrimary</color>
+    <drawable name="menu_text_selected">@color/colorPrimaryDark</drawable>
+</resources>

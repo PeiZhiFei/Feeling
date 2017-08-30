@@ -1,0 +1,7 @@
+#Wed Aug 30 11:24:09 CST 2017
+base.0=/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ce8c33e5eb5b89606a5d3386658ddc801e025631
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bc36941ebc349334f3b11c335938b38117c2262a/classes.dex
+base.1=/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bc36941ebc349334f3b11c335938b38117c2262a
+file.0=/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ce8c33e5eb5b89606a5d3386658ddc801e025631/classes.dex

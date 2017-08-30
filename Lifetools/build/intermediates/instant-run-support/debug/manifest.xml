@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.feifei.lifetools"
+    android:versionCode="11"
+    android:versionName="2.6-debug" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.xiaomi.market.sdk.UPDATE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+    <uses-feature android:name="android.hardware.camera" />
+    //我原来只有3个权限
+    <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> -->
+    <uses-permission android:name="com.xiaomi.market.sdk.UPDATE" />
+    <!--
+     android:process="system"
+    就这一句话的错误，误了我半天，但是知道放到系统进程是会先读setting.provider的
+    -->
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        name="com.feifei.lifetools.MyApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:icon="@drawable/lifetools"
+        android:label="@string/lifetools"
+        android:largeHeap="true"
+        android:theme="@style/Holo" >
+        <receiver android:name="com.xiaomi.market.sdk.DownloadCompleteReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.feifei.lifetools.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="feifei.material.main.MainActivity"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="feifei.material.analysis.AnalysisActivity" />
+        <activity android:name="feifei.material.analysis.AnalysisOrderListActivity" />
+        <activity android:name="feifei.material.analysis.SearchActivity" />
+        <activity android:name="feifei.material.analysis.StoreInfoActivity" />
+        <activity
+            android:name="com.zbar.lib.ScanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Holo" />
+        <activity
+            android:name="com.feifei.util.MyWebView"
+            android:theme="@style/dialog_white_style2" />
+        <activity
+            android:name="com.feifei.compass.CompassActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.feifei.checkpackage.SelectActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.feifei.checkpackage.PackageActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.feifei.contact.ContactActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.feifei.calculator.CalculatorActivity" />
+        <activity android:name="com.feifei.torch.TorchActivity" />
+        <activity android:name="com.feifei.setting.SettingActivity" />
+        <activity android:name="com.feifei.book.BookViewActivity" />
+        <activity android:name="com.feifei.checkpackage.ResultActivity" />
+        <activity android:name="com.feifei.feature.MapActivity" />
+        <activity android:name="com.feifei.feature.DetailActivity" />
+        <activity android:name="com.feifei.feature.WebActivity" />
+        <activity
+            android:name="com.feifei.setting.MoneyActivity"
+            android:windowSoftInputMode="stateUnchanged" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="bBOxOxGlpGeLepSeV1HYZFcH" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity
+            android:name="com.feifei.game.GameActivity"
+            android:icon="@drawable/icon"
+            android:label="三国争霸"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeGame" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <receiver android:name="com.xiaomi.market.sdk.DownloadCompleteReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.feifei.todo.notify.NotifyActivityAdd"
+            android:screenOrientation="portrait"
+            android:theme="@style/dialog_white_style" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN"/> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.feifei.todo.notify.NotifyActivityDialog"
+            android:theme="@style/dialogme" />
+
+        <receiver
+            android:name="com.feifei.todo.notify.NotifyReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cancel" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.feifei.todo.notify.DeskWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="feifei.todo.send" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+        <receiver android:name="com.xiaomi.market.sdk.DownloadCompleteReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.feifei.todo.other.CompleteActivity" />
+        <activity android:name="com.feifei.todo.other.MainActivity" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN"/> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.evernote.client.android.EvernoteOAuthActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar.MinWidth" />
+
+        <service android:name="com.feifei.todo.notify.MyService" />
+
+        <!-- <receiver -->
+        <!-- android:name=".notify.BootReceiver" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+    </application>
+
+</manifest>

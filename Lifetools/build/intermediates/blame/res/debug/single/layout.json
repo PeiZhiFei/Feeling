@@ -1,0 +1,370 @@
+[
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_stub_actionbuttons.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_stub_actionbuttons.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/esdk__webview.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/evernote/res/layout/esdk__webview.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/d_edittext.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/d_edittext.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/ui_gameview.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/ui_gameview.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/package_detail.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/package_detail.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_dialog_basic.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_dialog_basic.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/d_chooser.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/d_chooser.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/desk_widget.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/desk_widget.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/package_activity.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/package_activity.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_feature.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_feature.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/desk.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/desk.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_web.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_web.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/actionbar_default.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/actionbar_default.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/update_progress.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/update_progress.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/package_detail_item.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/package_detail_item.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_stub_progress.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_stub_progress.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/contact_item.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/contact_item.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_notify_add.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_notify_add.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_dialog_list.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_dialog_list.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_todo.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_todo.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/book_activity.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/book_activity.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_stub_progress_indeterminate.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_stub_progress_indeterminate.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_dialog_progress_indeterminate.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_dialog_progress_indeterminate.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/item_textview.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/item_textview.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/d_images.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/d_images.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_scan.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_scan.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_compass.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_compass.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/dialog_yuntu.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/dialog_yuntu.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/package_select_item.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/package_select_item.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/d_setting.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/d_setting.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_calculator.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_calculator.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/gridview_item.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/gridview_item.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_stub_inputpref.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_stub_inputpref.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/yuntu_dialog_normal.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/yuntu_dialog_normal.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/package_select.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/package_select.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_setting.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_dialog_progress.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_dialog_progress.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_listitem_singlechoice.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/toast_layout.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/toast_layout.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_dialog_custom.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_dialog_custom.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/contact_activity.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/contact_activity.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_notify_dialog.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_notify_dialog.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/yuntu_dialog_listitem.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/yuntu_dialog_listitem.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_listitem.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_listitem.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/view_alertdialog.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/view_alertdialog.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_stub_titleframe.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_stub_titleframe.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/ui_main.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/ui_main.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_dialog_input.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_dialog_input.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_listitem_multichoice.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_listitem_multichoice.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/md_simplelist_item.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/layout/md_simplelist_item.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_detail.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_detail.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/yuntu_dialog_layout.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/yuntu_dialog_layout.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/activity_torch.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/activity_torch.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/layout/yuntu_dialog_feedback.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/layout/yuntu_dialog_feedback.xml"
+    }
+]

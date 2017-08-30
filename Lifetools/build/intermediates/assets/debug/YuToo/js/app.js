@@ -1,0 +1,5 @@
+﻿
+$(document).ready(function(){var iw=$(window).innerWidth();var u=navigator.userAgent;$('#wrap').css('margin','0 auto');$('#wrap,footer').css('max-width','640px');$('#nav_menu').click(function(){if($('nav').is(':hidden')){$(document.body).scrollTop(0);$('nav').fadeIn('slow');}else{$('nav').fadeOut('slow');}});if(iw<=640){$('header').css({'position':'fixed'});}else{$('header').css({'position':'absolute'});}
+if('ontouchstart'in document.documentElement){}else{$('#wrap').css('margin','0 auto');$('#wrap,footer').css('max-width','640px');var wrap_left=$('#wrap').offset().left;var wrap_width=$('#wrap').width();$(document.body).prepend('<div style="position:fixed;width:189px;top:5px;color:#000;font-size:12px;text-align: center;left:'+(wrap_left+wrap_width+5)+'px;"></div>');}
+if($('.flexslider').length){$('.flexslider').flexslider(ad_options);}
+document.addEventListener("touchmove",function(){if(!$('nav').is(':hidden')){$('nav').fadeOut('slow');}},false);});

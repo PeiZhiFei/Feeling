@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+android {
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
+        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+        applicationId "feifei.material"
+        versionCode 1
+        versionName "1.0"
+    }
+
+//    signingConfigs {
+//        config {
+//            keyAlias '666666'
+//            keyPassword '666666'
+//            storePassword '666666'
+//            storeFile file('../feifei.keystore')
+//            //这样是指定在全局项目里
+//        }
+//    }
+
+    signingConfigs {
+        release {
+            storeFile file('feifeidebug.keystore')
+        }
+        debug {
+            storeFile file('feifeidebug.keystore')
+        }
+    }
+
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    compile(name: 'chart', ext: 'aar')
+    compile 'com.android.support:support-v13:23.1.1'
+    compile project(':Library')
+}

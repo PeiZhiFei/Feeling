@@ -1,0 +1,418 @@
+[
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/checkbox_style.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/checkbox_style.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_bg.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_bg.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/item_round_border.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/item_round_border.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/checkbox_blue.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/checkbox_blue.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/toast_dark.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/evernote/res/drawable/toast_dark.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/alertdialog_left_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/alertdialog_left_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_blue2.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_blue2.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/notify2.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/notify2.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_right2.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_right2.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/search_border.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/search_border.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_text_color.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_text_color.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/wl_blue_default2.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/wl_blue_default2.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/md_item_selected_dark.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/drawable/md_item_selected_dark.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/progress_bar_states.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/progress_bar_states.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_bg_press.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_bg_press.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/shape_circle_blue.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/shape_circle_blue.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/alertdialog_single_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/alertdialog_single_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/white_round.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/white_round.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_right1.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_right1.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/dialog_view.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/dialog_view.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/progress.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/progress.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_red2.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_red2.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_white_color.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_white_color.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_gray_right.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_gray_right.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/md_btn_selected_dark.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/drawable/md_btn_selected_dark.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/sidebar_round.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/sidebar_round.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_gray_down.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_gray_down.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_red.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_red.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/white_blue_line.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/white_blue_line.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/wl_blue_default.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/wl_blue_default.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/shine_shape.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/shine_shape.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/package_bg.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/package_bg.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/popup.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/popup.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_orange.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_orange.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/scan_ercode.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/scan_ercode.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_blue.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_blue.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/md_selector_dark.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/drawable/md_selector_dark.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/edittext1.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/edittext1.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/alertdialog_right_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/alertdialog_right_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/progressbar_bg.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/progressbar_bg.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_red_color.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_red_color.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/listitem_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/listitem_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/bg_board.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/bg_board.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_gray.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_gray.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_green.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_green.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/md_btn_selector_dark.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/drawable/md_btn_selector_dark.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/wl_input_bg.9.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/wl_input_bg.9.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/actionbar_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/actionbar_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_white.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_white.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/progressbar_dialog.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/progressbar_dialog.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_gray_left.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_gray_left.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/border_gray.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/border_gray.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/griditem_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/griditem_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/md_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/drawable/md_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/screen_bg.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/screen_bg.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_olive.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_olive.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/notify.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/notify.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_yellow2.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_yellow2.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/scan_light.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/scan_light.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/white_round_trans.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/white_round_trans.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_yellow.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_yellow.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/shape_circle_green.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/shape_circle_green.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/button_gray_line.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/button_gray_line.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/md_btn_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/drawable/md_btn_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/frame.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/frame.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/edittext2.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/edittext2.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/listitem_selector_change.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/listitem_selector_change.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/wl_text_default2.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/wl_text_default2.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/shape_circle_primary.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/shape_circle_primary.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/sacn_pic.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/sacn_pic.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/shape_circle_orange.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/shape_circle_orange.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/voice_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/voice_selector.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/md_item_selected.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/drawable/md_item_selected.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/md_transparent.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/drawable/md_transparent.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/edit_green.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/edit_green.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/tx_board.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/tx_board.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/md_btn_selected.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/exploded-aar/dialog/res/drawable/md_btn_selected.xml"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/drawable/buttonc_selector.xml",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/drawable/buttonc_selector.xml"
+    }
+]

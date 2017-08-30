@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Material</string>
+    <string name="tab_wechat">微信</string>
+    <string name="tab_addressbook">通讯录</string>
+    <string name="tab_moment">朋友圈</string>
+    <string name="tab_me">我</string>
+</resources>

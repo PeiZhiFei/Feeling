@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_wechat">微信</string>
+    <string name="tab_addressbook">通讯录</string>
+    <string name="tab_moment">朋友圈</string>
+    <string name="tab_me">我</string>
+    <string name="lifetools">生活小助手</string>
+    <string name="drop_down_list_header_loading_text">加载中&#8230;</string>
+    <string name="drop_down_list_footer_loading_text">加载中&#8230;</string>
+    <string name="update_at">上次刷新时间:&#160;</string>
+    <string name="getting_location">正在读取经纬度...</string>
+    <string name="location_north">北</string>
+    <string name="location_south">南</string>
+    <string name="location_east">东</string>
+    <string name="location_west">西</string>
+    <string name="menu_calibrate">校正指南針</string>
+    <string name="menu_calibrate_altitude">联网校准海拔</string>
+    <string name="calibrate_success">校正成功</string>
+    <string name="calibrate_failed_no_location">校准失败:无法获取当前经纬度</string>
+    <string name="calibrate_failed_timeout">校准失敗:服务器连接超时</string>
+    <string name="pressure_title">气压</string>
+    <string name="altitude_title">海拔</string>
+    <string name="pressure">%.1f</string>
+    <string name="altitude">%.1f</string>
+    <string name="pressure_unit">百帕</string>
+    <string name="altitude_unit">公尺</string>
+    <string name="dialog_title_no_network">请打开WLAN或移动数据流量</string>
+    <string name="dialog_calibrat_altitude">正在通过网络校准海拔</string>
+    <string name="latitude">纬度</string>
+    <string name="longitude">经度</string>
+    <string name="direction_north">北</string>
+    <string name="direction_south">南</string>
+    <string name="direction_east">东</string>
+    <string name="direction_west">西</string>
+    <string name="north">北</string>
+    <string name="south">南</string>
+    <string name="east">东</string>
+    <string name="west">西</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="divide">÷</string>
+    <string name="multply">×</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="point">.</string>
+    <string name="equal">=</string>
+
+    <string-array name="jazzy_effects">
+        <item>标准</item>
+        <item>增长</item>
+        <item>卡片</item>
+        <item>长线</item>
+        <item>波浪</item>
+        <item>翻转</item>
+        <item>飞翔</item>
+        <item>转飞</item>
+        <item>3D</item>
+        <item>斜飞</item>
+        <item>反转</item>
+        <item>酷炫</item>
+        <item>淡入</item>
+        <item>深洞</item>
+        <item>跟随</item>
+    </string-array>
+
+    <string-array name="welcome_tips_todo">
+        <item>为你点赞！</item>
+        <item>你真棒！</item>
+        <item>又完成了一条！</item>
+        <item>再接再励！</item>
+        <item>效率真高！</item>
+    </string-array>
+
+    welcome_tips_todo
+
+</resources>

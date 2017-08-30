@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/mipmap-xxhdpi/check_normal.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/mipmap-xxhdpi/check_normal.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/mipmap-xxhdpi/widget_preview.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/mipmap-xxhdpi/widget_preview.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/mipmap-xxhdpi/icon.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/mipmap-xxhdpi/wl_star.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/mipmap-xxhdpi/wl_star.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/mipmap-xxhdpi/icon_circle.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/mipmap-xxhdpi/icon_circle.png"
+    },
+    {
+        "merged": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/build/intermediates/res/merged/debug/mipmap-xxhdpi/check_checked.png",
+        "source": "/home/dx/AndroidStudioProjects/Feeling/Lifetools/src/main/res/mipmap-xxhdpi/check_checked.png"
+    }
+]
